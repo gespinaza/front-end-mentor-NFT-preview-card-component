@@ -1,0 +1,196 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    vertical-align:middle;
+    line-height: 1.5;
+}
+
+
+.main-img {
+
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+
+.main-img:hover {
+    background-color: hsl(178, 100%, 50%);
+    
+}
+
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+
+.desc {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+
+hr {
+
+    border-color:hsl(215, 51%, 55%) ;
+    height: 0.5px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    padding-bottom: 5px;
+
+}
+
+
+.card-container {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px 30px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+
+.profile-pic {
+
+    margin-right: 10px;
+    float: left;
+    max-width: 10%;
+    background-color:none;
+    border:1px solid white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    
+}
+
+.information {
+
+    display: flex;
+    align-items: center;
+}
+
+.eth-information {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px; 
+    margin-bottom: 15px 
+}
+
+
+.eth-value {
+    font-size: 13px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+
+.days-left {
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+.creator-name {
+
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.creator-name:hover {
+
+    color: hsl(178, 100%, 50%);
+    
+}
+
+.creator {
+    font-size: 13px;
+    color: hsl(215, 51%, 70%);
+    
+    
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    padding-top: 50px; 
+    color: darkgrey;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* overlay icon */
+
+.images-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+  }
+
+
+.main-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    
+    background-color: hsl(178, 100%, 50%);
+}
+
+.images-container:hover .overlay {
+    opacity: 0.5;
+    cursor: pointer;    
+}
+
+.eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+    display: none;
+   
+}
+
+.images-container:hover .overlay + .eye{
+    display: inline;
+}
