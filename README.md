@@ -51,6 +51,8 @@ Im learning web development so, it's a long path ahead. But will take the newbie
 - [https://www.w3schools.com/css/css_display_visibility.asp] - This helped me to learn how to display.
 - [https://www.w3schools.com/css/css3_images.asp] - Understand more about how images are managed.
 - [https://www.w3schools.com/howto/howto_css_image_overlay.asp]  - Overlay images using hover effects. Fade, slide, zoom, titlle, icon.
+- [https://www.w3schools.com/cssref/css3_pr_box-shadow.php] - How to make box shadows.
+- [https://www.cssmatic.com/box-shadow] - Shadow creator. 
 
 
 
